@@ -1,0 +1,304 @@
+/********************************
+              RESET
+*********************************/
+* {
+  box-sizing: border-box;
+}
+
+body {
+ margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.container-custom-mobile-link {
+  margin: auto;
+  width: 95%;
+}
+
+.container-custom-mobile-main {
+  margin: auto;
+  width: 92%;
+}
+
+
+
+/********************************
+           NAVIGATION
+*********************************/
+.main-header {
+  height: 59px;
+  background: rgb(60,20,120);
+background: linear-gradient(90deg, rgba(60,20,120,1) 0%, rgba(113,14,115,1) 39%, rgba(183,7,109,1) 62%, rgba(253,0,102,1) 100%);
+}
+
+.align-position-custom {
+  position: relative;
+  top: 10px;
+}
+
+.align-top {
+ position: relative; 
+ top: -1px;
+}
+
+
+
+/********************************
+          PHOTO SECTION
+*********************************/
+.main-photo {
+  background: #99999938;
+  padding: 100px;
+  text-align: center;
+  border-radius: 14px;
+}
+
+.fa-camera {
+  color: #d8d7d7;
+  font-size: 42px;
+  z-index: 1;
+}
+
+
+
+/********************************
+            LOGIN USER
+*********************************/
+.text-login {
+  text-align: center;
+  margin-top: 40px;
+  font-weight: 600;
+}
+
+.main-input input {
+  padding: 11px ;
+  border: solid 1px #cecece;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 14px;
+}
+
+.forgot-password {
+  text-align: right;
+}
+
+.forgot-password a {
+  color: #6f6f6f;
+  text-decoration: underline;
+}
+
+.btn {
+  width: 100%;
+  margin-top: 24px;
+  background-color: #034cd9;
+}
+
+
+
+/********************************************
+  NESTA PARTE ESTÁ TUDO RELACIONADO A SALA
+*********************************************/
+.list-custom {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.round-custom {
+  border-radius: 6px;
+}
+
+.p-custom {
+  padding: 1px 12px;
+}
+
+.hover-custom {
+  color: #6c757d;
+}
+
+.hover-custom:hover {
+  color: #1D8AFF !important;
+}
+
+.hover-custom:focus {
+  color: #1D8AFF !important;
+}
+
+.list-custom li:hover {
+  background: #fff;
+}
+
+.list-custom li:focus {
+  background: #fff;
+}
+
+.bg-custom-links {
+  background-color: #f5f5f5;
+}
+
+.mt-custom-main {
+  margin-top: 20px;
+}
+
+.main-section-custom {
+  box-shadow: 0 0 3px rgba(0,0,0, 0.14);
+  padding-top: 2px; 
+}
+
+.aling-text-hour-custom {
+  position: relative;
+  left: 24px;
+}
+
+.justify-text-custom p:nth-of-type(2) {
+  padding-left: 16px;
+  font-size: 15px;
+}
+
+.font-size-custom {
+  font-size: 13px;
+}
+
+.text-pink-custom { 
+  color: #f13b93;
+} 
+
+.nav-custom {
+  border-top: solid 1px #eee;
+  box-shadow: 0 0  2px rgba(0,0,0, .1);
+  margin-top: 10px;
+}
+
+
+
+
+/**************************************************
+          ICONES,CHAT,ENQUETE,HAMBURGUER
+***************************************************/
+.padding-top-custom-chat {
+  padding-top: 21px !important;
+}
+
+.list-custom-enquete li {
+  padding: 0 15px;
+}
+
+.list-custom-enquete li a {
+  color: #777 !important;
+}
+
+.fa-comment-alt,
+.fa-user,
+.fa-poll { 
+  font-size: 23px;
+  color: #999 !important;
+}
+
+.center-icon-custom {
+  text-align: center;
+}
+
+.chat-custom {
+  display: flex;
+}
+
+.chat-custom .fa-user {
+  margin-right: 24px;
+}
+
+.user-content-custom {
+  flex-direction: column;
+}
+
+.demo {
+  margin-left: 26px;
+  margin-bottom: 35px;
+}
+
+.demo input {
+  padding: 10px 0;
+  padding-left: 10px;
+  border-radius: 6px;
+  width: 92%;
+  border: solid 1px #cecece;
+  outline: none;
+}
+
+.demo img {
+  position: relative;
+  left: -35px;
+  width: 25px;
+}
+
+
+.bg-btn-custom {
+  background: #999 !important;
+  color: #fff !important;
+}
+
+.drop-custom-bg {
+  background: rgb(3, 76, 217);
+}
+
+.drop-custom-bg button {
+  color: #fff;
+}
+
+
+
+/**************************************************
+          TUDO RELACIONADO AO PERGUNTE-ME 
+***************************************************/
+.fa-user-circle { 
+  font-size: 65px;
+  color: #999;
+}
+
+
+
+
+/**************************************************
+          TUDO RELACIONADO AO ENQUETE
+***************************************************/
+.grid-system-custom-checkbox {
+  display: grid; 
+  grid-template-columns: 150px 200px;
+}
+
+.enquete-align-top {
+  margin-top: 26px;
+}
+
+.mt-only-custom {
+  margin-top: 27px;
+}
+
+.grid-system-custom-checkbox label {
+  margin-right: 30px;
+}
+
+
+
+.grid-system-custom-checkbox input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(2);
+  padding: 10px;
+}
+
+
+
